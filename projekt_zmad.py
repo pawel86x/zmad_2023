@@ -224,5 +224,4 @@ class Dataset:
 
 if __name__ == "__main__":
     d = Dataset()
-    d.read_file('iris.csv', ',', 1)
     d.main('iris.csv', ',', 1)
